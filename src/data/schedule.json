@@ -1,0 +1,304 @@
+{
+  "monday": [
+    {
+      "number": 4,
+      "isAlternative": true,
+      "pairs": {
+        "top": {
+          "name": "ФИЗИЧЕСКИЕ ОСНОВЫ ПОСТРОЕНИЯ ЭВМ И АРХИТЕКТУРА КОМПЬЮТЕРОВ",
+          "type": "lec",
+          "place": "309А К8 ст.1",
+          "teacher": "Бугаенко А.В."
+        },
+        "bottom": null
+      }
+    },
+    {
+      "number": 5,
+      "pairs": {
+        "top": {
+          "name": "ФИЗИЧЕСКИЕ ОСНОВЫ ПОСТРОЕНИЯ ЭВМ И АРХИТЕКТУРА КОМПЬЮТЕРОВ",
+          "type": "lab",
+          "place": "Библиотека К8 ст.1",
+          "teacher": "Бугаенко А.В."
+        },
+        "bottom": null
+      }
+    },
+    {
+      "number": 6,
+      "isAlternative": true,
+      "pairs": {
+        "top": {
+          "name": "ФИЗИКА",
+          "type": "lec",
+          "place": "309А К8 ст.1",
+          "teacher": "Соковнич С.М."
+        },
+        "bottom":  {
+          "name": "ПРАВОВЕДЕНИЕ И АНТИКОРРУПЦИОННОЕ ПОВЕДЕНИЕ",
+          "type": "lec",
+          "place": "309А К8 ст.1",
+          "teacher": "Лужанская А.А."
+        }
+      }
+    },
+    {
+      "number": 7,
+      "pairs": {
+        "top": {
+          "name": "ФИЗИКА",
+          "type": "lab-prac",
+          "place": "309А К8 ст.1",
+          "teacher": "Соковнич С.М."
+        },
+        "bottom": null
+      }
+    }
+  ],
+  "tuesday": [
+    {
+      "number": 3,
+      "pairs": {
+        "top": {
+          "name": "ЭЛЕКТИВНЫЕ КУРСЫ ПО ФИЗИЧЕСКОЙ КУЛЬТУРЕ И СПОРТУ",
+          "type": "prac",
+          "place": "Гор. стадион",
+          "teacher": "Шишкану А.Н., Захаревич А. В."
+        },
+        "bottom": null
+      }
+    },
+    {
+      "number": 4,
+      "isAlternative": true,
+      "pairs": {
+        "top": {
+          "name": "ЯЗЫКИ И МЕТОДЫ ПРОГРАММИРОВАНИЯ (ПРАКТИКУМ НА ЭВМ)",
+          "type": "lab",
+          "place": "312А К8 ст.1",
+          "teacher": "Марков Д.А."
+        },
+        "bottom": null
+      }
+    },
+    {
+      "number": 5,
+      "pairs": {
+        "top": {
+          "name": "ЯЗЫКИ И МЕТОДЫ ПРОГРАММИРОВАНИЯ (ПРАКТИКУМ НА ЭВМ)",
+          "type": "lab",
+          "place": "312А К8 ст.1",
+          "teacher": "Марков Д.А."
+        },
+        "bottom": null
+      }
+    },
+    {
+      "number": 6,
+      "pairs": {
+        "top": {
+          "name": "ОБЪЕКТИВНО-ОРИЕНТИРОВАННЫЙ АНАЛИЗ И ПРОЕКТИРОВАНИЕ",
+          "type": "lec-lab",
+          "place": "314В К8 ст.3",
+          "teacher": "Радилов П. А."
+        },
+        "bottom": null
+      }
+    },
+    {
+      "number": 7,
+      "pairs": {
+        "top": {
+          "name": "ОБЪЕКТИВНО-ОРИЕНТИРОВАННЫЙ АНАЛИЗ И ПРОЕКТИРОВАНИЕ",
+          "type": "lab",
+          "place": "314В К8 ст.3",
+          "teacher": "Радилов П.А."
+        },
+        "bottom": null
+      }
+    }
+  ],
+  "wednesday": [
+    {
+      "number": 4,
+      "isAlternative": true,
+      "pairs": {
+        "top": {
+          "name": "ДИСКРЕТНАЯ МАТЕМАТИКА",
+          "type": "lec-prac",
+          "place": "306А К8 ст.1",
+          "teacher": "Старчук А.С."
+        },
+        "bottom": null
+      }
+    },
+    {
+      "number": 5,
+      "pairs": {
+        "top": {
+          "name": "ДИСКРЕТНАЯ МАТЕМАТИКА",
+          "type": "lec-prac",
+          "place": "Э* 117",
+          "teacher": "Старчук А.С."
+        },
+        "bottom": null
+      }
+    },
+    {
+      "number": 6,
+      "pairs": {
+        "top": {
+          "name": "МАТЕМАТИЧЕСКИЙ АНАЛИЗ",
+          "type": "lec",
+          "place": "Э* 117",
+          "teacher": "Зинган А.П."
+        },
+        "bottom": null
+      }
+    },
+    {
+      "number": 7,
+      "isAlternative": true,
+      "pairs": {
+        "top": {
+          "name": "ЭКОНОМИКА И ОСНОВЫ ФИНАНСОВОЙ ГРАМОТНОСТИ",
+          "type": "prac",
+          "place": "302А К8 ст.1",
+          "teacher": "Дорофеева Л.В."
+        },
+        "bottom": null
+      }
+    }
+  ],
+  "thursday": [
+    {
+      "number": 3,
+      "pairs": {
+        "top": {
+          "name": "ЭЛЕКТИВНЫЕ КУРСЫ ПО ФИЗИЧЕСКОЙ КУЛЬТУРЕ И СПОРТУ",
+          "type": "prac",
+          "place": "Гор. стадион",
+          "teacher": "Шишкану А.Н., Захаревич А. В."
+        },
+        "bottom": null
+      }
+    },
+    {
+      "number": 4,
+      "pairs": {
+        "top": {
+          "name": "МАТЕМАТИЧЕСКИЙ АНАЛИЗ",
+          "type": "prac",
+          "place": "Э* 113",
+          "teacher": "Зинган А.П."
+        },
+        "bottom": null
+      }
+    },
+    {
+      "number": 5,
+      "pairs": {
+        "top": {
+          "name": "МАТЕМАТИЧЕСКИЙ АНАЛИЗ",
+          "type": "lec-prac",
+          "place": "Э* 113",
+          "teacher": "Зинган А.П."
+        },
+        "bottom": null
+      }
+    },
+    {
+      "number": 6,
+      "pairs": {
+        "top": {
+          "name": "МАТЕМАТИЧЕСКАЯ ЛОГИКА",
+          "type": "lec-prac",
+          "place": "Э* 113",
+          "teacher": "Малютина Н.Н."
+        },
+        "bottom": null
+      }
+    },
+    {
+      "number": 7,
+      "isAlternative": true,
+      "pairs": {
+        "top": null,
+        "bottom": {
+          "name": "ПРАВОВЕДЕНИЕ И АНТИКОРРУПЦИОННОЕ ПОВЕДЕНИЕ",
+          "type": "prac",
+          "place": "303А К8 ст.1",
+          "teacher": "Лужанская А.А."
+        }
+      }
+    }
+  ],
+  "friday": [
+    {
+      "number": 4,
+      "pairs": {
+        "top": {
+          "name": "ФИЗИКА",
+          "type": "lec",
+          "place": "Э* 114",
+          "teacher": "Соковнич С.М."
+        },
+        "bottom": null
+      }
+    },
+    {
+      "number": 5,
+      "pairs": {
+        "top": {
+          "name": "ФИЗИКА",
+          "type": "prac",
+          "place": "Э* 114",
+          "teacher": "Соковнич С.М."
+        },
+        "bottom": null
+      }
+    },
+    {
+      "number": 6,
+      "isAlternative": true,
+      "pairs": {
+        "top": {
+          "name": "ЭКОНОМИКА И ОСНОВЫ ФИНАНСОВОЙ ГРАМОТНОСТИ",
+          "type": "lec",
+          "place": "215В К8 ст.3",
+          "teacher": "Дорофеева Л.В."
+        },
+        "bottom": null
+      }
+    }
+  ],
+  "saturday": [
+    {
+      "number": 1,
+      "isAlternative": true,
+      "pairs": {
+        "top": null,
+        "bottom": {
+          "name": "ИСТОРИЯ ПМР",
+          "type": "prac",
+          "place": "215В К8 ст.3",
+          "teacher": "Содоль В.А."
+        }
+      }
+    },
+    {
+      "number": 2,
+      "isAlternative": true,
+      "pairs": {
+        "top": {
+          "name": "ИСТОРИЯ ПМР",
+          "type": "lec",
+          "place": "215В К8 ст.3",
+          "teacher": "Содоль В.А."
+        },
+        "bottom": null
+      }
+    }
+  ]
+}
