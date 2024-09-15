@@ -10,7 +10,12 @@
           "place": "309А К8 ст.1",
           "teacher": "Бугаенко А.В."
         },
-        "bottom": null
+        "bottom": {
+          "name": "ДИСКРЕТНАЯ МАТЕМАТИКА",
+          "type": "lec-prac",
+          "place": "309А К8 ст.1",
+          "teacher": "Старчук А.С."
+        }
       }
     },
     {
@@ -130,19 +135,30 @@
           "place": "306А К8 ст.1",
           "teacher": "Старчук А.С."
         },
-        "bottom": null
+        "bottom": {
+          "name": "МАТЕМАТИЧЕСКИЙ АНАЛИЗ",
+          "type": "lec",
+          "place": "306А К8 ст.1",
+          "teacher": "Зинган А.П."
+        }
       }
     },
     {
       "number": 5,
+      "isAlternative": true,
       "pairs": {
         "top": {
           "name": "ДИСКРЕТНАЯ МАТЕМАТИКА",
           "type": "lec-prac",
-          "place": "Э* 117",
+          "place": "304В К8 ст.1",
           "teacher": "Старчук А.С."
         },
-        "bottom": null
+        "bottom": {
+          "name": "ЭКОНОМИКА И ОСНОВЫ ФИНАНСОВОЙ ГРАМОТНОСТИ",
+          "type": "lec-prac",
+          "place": "304В К8 ст.1",
+          "teacher": "Дорофеева Л.В."
+        }
       }
     },
     {
@@ -151,7 +167,7 @@
         "top": {
           "name": "МАТЕМАТИЧЕСКИЙ АНАЛИЗ",
           "type": "lec",
-          "place": "Э* 117",
+          "place": "Э* 232",
           "teacher": "Зинган А.П."
         },
         "bottom": null
@@ -161,13 +177,13 @@
       "number": 7,
       "isAlternative": true,
       "pairs": {
-        "top": {
+        "top": null,
+        "bottom": {
           "name": "ЭКОНОМИКА И ОСНОВЫ ФИНАНСОВОЙ ГРАМОТНОСТИ",
           "type": "prac",
-          "place": "302А К8 ст.1",
+          "place": "ФТИ",
           "teacher": "Дорофеева Л.В."
-        },
-        "bottom": null
+        }
       }
     }
   ],
@@ -214,7 +230,7 @@
         "top": {
           "name": "МАТЕМАТИЧЕСКАЯ ЛОГИКА",
           "type": "lec-prac",
-          "place": "Э* 113",
+          "place": "Э* 114",
           "teacher": "Малютина Н.Н."
         },
         "bottom": null
