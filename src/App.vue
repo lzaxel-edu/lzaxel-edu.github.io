@@ -3,17 +3,18 @@ import schedule from "./data/schedule.json";
 import time from "./data/time.json";
 import dayjs from "dayjs";
 import {computed, onMounted} from "vue";
-import PairItem from "./components/PairItem.vue";
+import PairItem from "./components/LessonItem.vue";
 import ChangeThemeButton from "./components/ChangeThemeButton.vue";
 
-const isFirstWeekTop = true;
+const currentDate = dayjs();
 const firstDate = "09-03";
-const firstWeekNumber = dayjs(firstDate).week()
+const firstWeekNumber = dayjs(firstDate).isoWeek()
+const isFirstWeekTop = true;
 
 type Weekday = "monday" | "tuesday" | "wednesday" | "thursday" | "friday" | "saturday";
 
 const isCurrentWeekTop = computed(() => {
-  return ((dayjs().week() - firstWeekNumber) % 2 === 0) === isFirstWeekTop
+  return ((currentDate.isoWeek() - firstWeekNumber) % 2 === 0) === isFirstWeekTop
 })
 
 
@@ -81,7 +82,7 @@ onMounted(() => {
                  class="rounded-2xl glass relative overflow-hidden w-full flex flex-row p-1 gap-2 pl-9">
               <div
                   class="bg-white dark:bg-neutral-900 bg-opacity-30 absolute top-0 left-0 bottom-0 h-full w-8 min-w-8 text-primary-800 dark:text-neutral-200 flex justify-center items-center text-xl">
-                {{ pair.number }}
+                 {{ pair.number }}
               </div>
               <div class="flex flex-col gap-1">
                 <p class="leading-[5px] mt-2 ml-2 text-xs text-primary-900 dark:text-neutral-200">

@@ -1,26 +1,40 @@
 {
   "monday": [
     {
-      "number": 4,
-      "isAlternative": true,
+      "number": 3,
+      "isAlternative": false,
       "pairs": {
         "top": {
-          "name": "ФИЗИЧЕСКИЕ ОСНОВЫ ПОСТРОЕНИЯ ЭВМ И АРХИТЕКТУРА КОМПЬЮТЕРОВ",
+          "name": "ЭЛЕКТИВНЫЕ КУРСЫ ПО ФИЗИЧЕСКОЙ КУЛЬТУРЕ И СПОРТУ",
+          "type": "prac",
+          "place": "Спорт. площадка ФТИ",
+          "teacher": "Шишкану А.Н., Захаревич А.В."
+        },
+        "bottom": null
+      }
+    },
+    {
+      "number": 4,
+      "isAlternative": false,
+      "pairs": {
+        "top": {
+          "name": "ОСНОВЫ ПОЛИТИЧЕСКОЙ ВЛАСТИ",
           "type": "lec",
-          "place": "201Д К8 ст.2",
-          "teacher": "Бугаенко А.В."
+          "place": "215А",
+          "teacher": "Бадян В.И."
         },
         "bottom": null
       }
     },
     {
       "number": 5,
+      "isAlternative": false,
       "pairs": {
         "top": {
-          "name": "ФИЗИЧЕСКИЕ ОСНОВЫ ПОСТРОЕНИЯ ЭВМ И АРХИТЕКТУРА КОМПЬЮТЕРОВ",
-          "type": "lab",
-          "place": "204А К8 ст.1",
-          "teacher": "Бугаенко А.В."
+          "name": "ПОСТРОЕНИЕ И АНАЛИЗ АЛГОРИТМОВ",
+          "type": "prac",
+          "place": "305А",
+          "teacher": "Калинкова Е.В."
         },
         "bottom": null
       }
@@ -29,53 +43,38 @@
       "number": 6,
       "isAlternative": true,
       "pairs": {
-        "top": {
-          "name": "ФИЗИКА",
-          "type": "lec",
-          "place": "309А К8 ст.1",
-          "teacher": "Соковнич С.М."
-        },
+        "top": null,
         "bottom": {
-          "name": "ПРАВОВЕДЕНИЕ И АНТИКОРРУПЦИОННОЕ ПОВЕДЕНИЕ",
-          "type": "lec",
-          "place": "214В К8 ст.3",
-          "teacher": "Лужанская А.А."
+          "name": "ОСНОВЫ ПОЛИТИЧЕСКОЙ ВЛАСТИ",
+          "type": "prac",
+          "place": "215А",
+          "teacher": "Бадян В.И."
         }
-      }
-    },
-    {
-      "number": 7,
-      "pairs": {
-        "top": {
-          "name": "ФИЗИКА",
-          "type": "lab-prac",
-          "place": "309А К8 ст.1",
-          "teacher": "Соковнич С.М."
-        },
-        "bottom": null
       }
     }
   ],
   "tuesday": [
     {
       "number": 3,
+      "isAlternative": false,
       "pairs": {
         "top": {
           "name": "ЭЛЕКТИВНЫЕ КУРСЫ ПО ФИЗИЧЕСКОЙ КУЛЬТУРЕ И СПОРТУ",
           "type": "prac",
-          "place": "ФТИ",
-          "teacher": "Шишкану А.Н., Захаревич А. В."
+          "place": "Спорт. площадка ФТИ",
+          "teacher": "Шишкану А.Н., Захаревич А.В."
         },
         "bottom": null
       }
     },
     {
       "number": 4,
+      "isAlternative": false,
       "pairs": {
         "top": {
           "name": "ЯЗЫКИ И МЕТОДЫ ПРОГРАММИРОВАНИЯ (ПРАКТИКУМ НА ЭВМ)",
           "type": "lab",
-          "place": "203Б К2 ПГУ",
+          "place": "305А",
           "teacher": "Марков Д.А."
         },
         "bottom": null
@@ -83,80 +82,76 @@
     },
     {
       "number": 5,
+      "isAlternative": false,
       "pairs": {
         "top": {
-          "name": "ЯЗЫКИ И МЕТОДЫ ПРОГРАММИРОВАНИЯ (ПРАКТИКУМ НА ЭВМ)",
-          "type": "lab",
-          "place": "203Б К2 ПГУ",
-          "teacher": "Марков Д.А."
+          "name": "ФИЛОСОФИЯ",
+          "type": "lec",
+          "place": "215А",
+          "teacher": "Орлова Г.В."
         },
         "bottom": null
       }
     },
     {
       "number": 6,
+      "isAlternative": true,
       "pairs": {
         "top": {
-          "name": "ОБЪЕКТИВНО-ОРИЕНТИРОВАННЫЙ АНАЛИЗ И ПРОЕКТИРОВАНИЕ",
-          "type": "lec-lab",
-          "place": "204В К8 ст.3",
-          "teacher": "Радилов П. А."
+          "name": "ОПЕРАЦИОННЫЕ СИСТЕМЫ",
+          "type": "lec",
+          "place": "305А",
+          "teacher": "Васильев В.В."
         },
-        "bottom": null
+        "bottom": {
+          "name": "ПОСТРОЕНИЕ И АНАЛИЗ АЛГОРИТМОВ",
+          "type": "lab",
+          "place": "204А",
+          "teacher": "Калинкова Е.В."
+        }
       }
     },
     {
       "number": 7,
+      "isAlternative": true,
       "pairs": {
         "top": {
-          "name": "ОБЪЕКТИВНО-ОРИЕНТИРОВАННЫЙ АНАЛИЗ И ПРОЕКТИРОВАНИЕ",
-          "type": "lab",
-          "place": "204В К8 ст.3",
-          "teacher": "Радилов П.А."
+          "name": "ФИЛОСОФИЯ",
+          "type": "prac",
+          "place": "211А",
+          "teacher": "Орлова Г.В."
         },
-        "bottom": null
+        "bottom": {
+          "name": "ПОСТРОЕНИЕ И АНАЛИЗ АЛГОРИТМОВ",
+          "type": "lec",
+          "place": "305А",
+          "teacher": "Калинкова Е.В."
+        }
       }
     }
   ],
   "wednesday": [
     {
-      "number": 4,
-      "isAlternative": true,
+      "number": 5,
+      "isAlternative": false,
       "pairs": {
         "top": {
-          "name": "ДИСКРЕТНАЯ МАТЕМАТИКА",
-          "type": "lec-prac",
-          "place": "312А К8 ст.1",
-          "teacher": "Старчук А.С."
+          "name": "БЕЗОПАСНОСТЬ ЖИЗНЕДЕЯТЕЛЬНОСТИ",
+          "type": "lec",
+          "place": "215В",
+          "teacher": "Орлов Т.В."
         },
         "bottom": null
       }
     },
     {
-      "number": 5,
-      "isAlternative": true,
-      "pairs": {
-        "top": {
-          "name": "ДИСКРЕТНАЯ МАТЕМАТИКА",
-          "type": "lec-prac",
-          "place": "312А К8 ст.1",
-          "teacher": "Старчук А.С."
-        },
-        "bottom": {
-          "name": "ЭКОНОМИКА И ОСНОВЫ ФИНАНСОВОЙ ГРАМОТНОСТИ",
-          "type": "lec",
-          "place": "214В К8 ст.3",
-          "teacher": "Брынза Е.В."
-        }
-      }
-    },
-    {
       "number": 6,
+      "isAlternative": false,
       "pairs": {
         "top": {
-          "name": "МАТЕМАТИЧЕСКИЙ АНАЛИЗ",
+          "name": "Дифференциальные уравнения",
           "type": "lec",
-          "place": "312А К8 ст.1",
+          "place": "Э* 221",
           "teacher": "Зинган А.П."
         },
         "bottom": null
@@ -164,38 +159,27 @@
     },
     {
       "number": 7,
-      "isAlternative": true,
+      "isAlternative": false,
       "pairs": {
-        "top": null,
-        "bottom": {
-          "name": "ЭКОНОМИКА И ОСНОВЫ ФИНАНСОВОЙ ГРАМОТНОСТИ",
+        "top": {
+          "name": "Дифференциальные уравнения",
           "type": "prac",
-          "place": "214В К8 ст.3",
-          "teacher": "Брынза Е.В."
-        }
+          "place": "Э* 221",
+          "teacher": "Зинган А.П."
+        },
+        "bottom": null
       }
     }
   ],
   "thursday": [
     {
-      "number": 3,
-      "pairs": {
-        "top": {
-          "name": "ЭЛЕКТИВНЫЕ КУРСЫ ПО ФИЗИЧЕСКОЙ КУЛЬТУРЕ И СПОРТУ",
-          "type": "prac",
-          "place": "ФТИ",
-          "teacher": "Шишкану А.Н., Захаревич А. В."
-        },
-        "bottom": null
-      }
-    },
-    {
       "number": 4,
+      "isAlternative": false,
       "pairs": {
         "top": {
-          "name": "МАТЕМАТИЧЕСКИЙ АНАЛИЗ",
+          "name": "Дифференциальные уравнения",
           "type": "prac",
-          "place": "302А К8 ст.1",
+          "place": "Э* 225",
           "teacher": "Зинган А.П."
         },
         "bottom": null
@@ -203,63 +187,67 @@
     },
     {
       "number": 5,
+      "isAlternative": false,
       "pairs": {
         "top": {
-          "name": "МАТЕМАТИЧЕСКИЙ АНАЛИЗ",
-          "type": "lec-prac",
-          "place": "312А К8 ст.1",
-          "teacher": "Зинган А.П."
+          "name": "ТЕОРИЯ ВЕРОЯТНОСТЕЙ И МАТЕМАТИЧЕСКАЯ СТАТИСТИКА",
+          "type": "lec",
+          "place": "Э* 114",
+          "teacher": "Запольская О.Ю."
         },
         "bottom": null
       }
     },
     {
       "number": 6,
+      "isAlternative": false,
       "pairs": {
         "top": {
-          "name": "МАТЕМАТИЧЕСКАЯ ЛОГИКА",
-          "type": "lec-prac",
-          "place": "312А К8 ст.1",
-          "teacher": "Малютина Н.Н."
+          "name": "ОПЕРАЦИОННЫЕ СИСТЕМЫ",
+          "type": "lec",
+          "place": "305А",
+          "teacher": "Васильев В.В."
         },
         "bottom": null
-      }
-    },
-    {
-      "number": 7,
-      "isAlternative": true,
-      "pairs": {
-        "top": null,
-        "bottom": {
-          "name": "ПРАВОВЕДЕНИЕ И АНТИКОРРУПЦИОННОЕ ПОВЕДЕНИЕ",
-          "type": "prac",
-          "place": "215В К8 ст.3",
-          "teacher": "Лужанская А.А."
-        }
       }
     }
   ],
   "friday": [
     {
-      "number": 4,
+      "number": 3,
+      "isAlternative": false,
       "pairs": {
         "top": {
-          "name": "ФИЗИКА",
-          "type": "lec",
-          "place": "Э* 114",
-          "teacher": "Соковнич С.М."
+          "name": "ЯЗЫКИ И МЕТОДЫ ПРОГРАММИРОВАНИЯ (ПРАКТИКУМ НА ЭВМ)",
+          "type": "prac",
+          "place": "303А",
+          "teacher": "Марков Д.А."
+        },
+        "bottom": null
+      }
+    },
+    {
+      "number": 4,
+      "isAlternative": false,
+      "pairs": {
+        "top": {
+          "name": "Английский язык в профессиональной деятельности",
+          "type": "prac",
+          "place": "202А",
+          "teacher": "Жосан Д.К."
         },
         "bottom": null
       }
     },
     {
       "number": 5,
+      "isAlternative": false,
       "pairs": {
         "top": {
-          "name": "ФИЗИКА",
+          "name": "БЕЗОПАСНОСТЬ ЖИЗНЕДЕЯТЕЛЬНОСТИ",
           "type": "prac",
-          "place": "Э* 114",
-          "teacher": "Соковнич С.М."
+          "place": "215В",
+          "teacher": "Капитанчук Д.М."
         },
         "bottom": null
       }
@@ -267,27 +255,40 @@
   ],
   "saturday": [
     {
-      "number": 1,
-      "isAlternative": true,
+      "number": 2,
+      "isAlternative": false,
       "pairs": {
-        "top": null,
-        "bottom": {
-          "name": "ИСТОРИЯ ПМР",
+        "top": {
+          "name": "ТЕОРИЯ ВЕРОЯТНОСТЕЙ И МАТЕМАТИЧЕСКАЯ СТАТИСТИКА",
           "type": "prac",
-          "place": "215В К8 ст.3",
-          "teacher": "Содоль В.А."
-        }
+          "place": "Э* 113",
+          "teacher": "Запольская О.Ю."
+        },
+        "bottom": null
       }
     },
     {
-      "number": 2,
+      "number": 3,
+      "isAlternative": false,
+      "pairs": {
+        "top": {
+          "name": "ДИСКРЕТНАЯ МАТЕМАТИКА",
+          "type": "prac",
+          "place": "Э* 3",
+          "teacher": "Старчук А.С."
+        },
+        "bottom": null
+      }
+    },
+    {
+      "number": 4,
       "isAlternative": true,
       "pairs": {
         "top": {
-          "name": "ИСТОРИЯ ПМР",
+          "name": "ДИСКРЕТНАЯ МАТЕМАТИКА",
           "type": "lec",
-          "place": "215В К8 ст.3",
-          "teacher": "Содоль В.А."
+          "place": "Э* 3",
+          "teacher": "Старчук А.С."
         },
         "bottom": null
       }
